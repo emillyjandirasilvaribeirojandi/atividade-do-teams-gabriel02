@@ -1,0 +1,71 @@
+/* Estilo geral */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+/* Cabeçalho */
+header {
+    background-color: blanchedalmond;
+    color: black;
+    padding: 20px;
+}
+header h1{
+    margin: 0 0 10px 0;
+}
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+ 
+nav a {
+    color: beige;
+    text-decoration: antiquewhite;
+    gap: 15px;
+}
+ nav a { 
+     color: beige;
+     text-decoration: antiquewhite;
+     font-weight: bold;
+}
+
+nav a:haver {
+    text-decoration: aliceblue;
+}
+
+/* Conteudo */ 
+main {
+ max-width: 900px;
+  margin: auto;
+  padding: 20px;
+
+}
+
+section, article {
+     background-color: bisque;
+     padding: 20px;
+     margin-bottom: 20px;
+     border-radius: 8px;
+}
+/* Rodepe */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: bisque;
+}
+
+/* Codigo */
+pre {
+ background-color: antiquewhite;
+ padding: 10px;
+ border-radius: 5px;
+ overflow-x: auto;
+} 
